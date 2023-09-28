@@ -1,0 +1,7 @@
+1- El problema que se puede ver a simple vista es que solamente come hamburguesas
+el hilo 0 y no se turnan 1 y 1 para comer.
+Falta agregar un sistema de turnos para que no exista este problema.
+
+2- El nombre que se le da a esta falla se denomina Race Conditions, que es cuando el
+resultado de la ejecucion depende de que una secuencia de eventos se ejecuten en un orden
+arbitrario y van a trabajar sobre un mismo recurso compartido, se produce un error cuando
